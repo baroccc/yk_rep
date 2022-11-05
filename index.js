@@ -11,7 +11,12 @@ app.get('/yk',(req,res)=>{
     res.send('ola comostas')
 })
 
+app.get('/JuanM',(req,res)=>{
+    res.send('Hola soy JuanM')
+})
+
 //Definir el parametro donde la aplicacion escucha
 app.listen(port, () =>{
     console.log(`Example app listening on port ${port}`)
 })
+
