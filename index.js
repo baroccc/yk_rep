@@ -11,6 +11,11 @@ app.get('/yk',(req,res)=>{
     res.send('ola comostas')
 })
 
+//Solicitud al endpoint "/haider147"
+app.get('/haider147',(req,res)=>{
+    res.send('Quién para un partido de fuchi')
+})
+
 //Definir el parametro donde la aplicacion escucha
 app.listen(port, () =>{
     console.log(`Example app listening on port ${port}`)
