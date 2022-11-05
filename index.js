@@ -15,6 +15,11 @@ app.get('/JuanM',(req,res)=>{
     res.send('Hola soy JuanM')
 })
 
+//EndPoint /haider147
+app.get('/haider147',(req,res)=>{
+    res.send('Quien para una partida de lol?')
+})
+
 //Definir el parametro donde la aplicacion escucha
 app.listen(port, () =>{
     console.log(`Example app listening on port ${port}`)
