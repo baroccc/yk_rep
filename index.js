@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 //Solicitud al endpoint "/yk"
 app.get('/yk',(req,res)=>{
-    res.send('ola comostas')
+    res.sendsta
 })
 
 //Definir el parametro donde la aplicacion escucha
